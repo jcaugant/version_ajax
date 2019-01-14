@@ -30,7 +30,7 @@
 </div>
 
 <div id="suppr_number">
-<form action="suppr_name.php" method="post">
+<form action="suppr_resa.php" method="post">
 <div class="row justify-content-center">Entrez ici le num&eacute;ro de la r&eacute;servation &agrave; supprimer :<input type="text" name="name"></div><br />
 <div class="row justify-content-center"><button type="submit" class="btn btn-dark">Chercher</button></div>
 </form>
