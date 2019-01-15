@@ -7,6 +7,8 @@
 
 <script src="../js/default_script.js"></script>
 
+<?php
+
 $req = $bdd->prepare('SELECT id, nom, salle, date, heure_arriv, heure_dep, nb_etud FROM resa WHERE nom = ? ');
 
 $req->execute(array($_POST['name'] ));
