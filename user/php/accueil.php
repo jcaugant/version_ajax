@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-<?php include("connect.php"); ?>
+
 
 
 <!-- Intro -->
@@ -13,8 +13,10 @@
 
 <?php include("caroussel.php"); ?>
 
+<div id="champ"></div>
 
 
 <script src="../js/default_script.js"></script>
+
      
 <?php include("footer.php"); ?>
